@@ -1,0 +1,8 @@
+.delete{
+    background-image: url(../../logos/trash-2\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+    background-size: contain;
+}

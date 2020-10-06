@@ -1,0 +1,32 @@
+.top-logo{
+    width: 40%;
+    margin-top: 60px;
+}
+
+.reg{
+    width:40%;
+    height: 50%;
+}
+
+.reg-form{
+    margin-top: 10%;
+    border-radius: 8px;
+    border: 1px solid #ABABAB;
+    padding: 10%;
+}
+
+.reg-btn{
+    width: 100%;
+    padding: 8px;
+    background-color: #3F90FC;
+    border: none;
+    outline: none;
+}
+
+input{
+    border-bottom: 1px solid #ABABAB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}

@@ -1,0 +1,19 @@
+.btn-search{
+    width: 10%;
+    margin-right: 35%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #3F90FC;
+}
+
+#input-search{
+    margin-left: 35%;
+    width:20%;
+    height: 46px;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+
+#input-search::placeholder{
+    padding-left: 10px;
+}

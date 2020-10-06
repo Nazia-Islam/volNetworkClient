@@ -1,0 +1,49 @@
+.app-nav{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 30px;
+}
+
+.logo img{
+    width: 203px;
+    height: 60px;
+}
+
+.nav-item{
+    margin-top: 10px;
+    margin-left: 15%;
+    float: right;
+}
+
+.item{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    outline:none;
+}
+
+.register{
+    background-color: #3F90FC;
+}
+
+.register:hover{
+    background-color: white;
+    color: #3F90FC;
+}
+
+.admin{
+    background-color: #434141;
+}
+
+.admin:hover{
+    background-color: white;
+    color: #434141;
+}
