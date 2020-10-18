@@ -38,7 +38,7 @@ const Register = () => {
         e.preventDefault();
         const newVolunteer = {addVolunter, eventDate};
         console.log(eventDate);
-        fetch('http://localhost:4000/addVolunteer', {
+        fetch('https://still-tor-92463.herokuapp.com/addVolunteer', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newVolunteer)

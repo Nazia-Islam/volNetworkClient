@@ -39,7 +39,7 @@ const AddEvent = () => {
         formData.append('file', file);
         const newVEvent = {title, description, eventDate, filename};
         console.log(newVEvent);
-        fetch('http://localhost:4000/addVolunteerEvent', {
+        fetch('https://still-tor-92463.herokuapp.com/addVolunteerEvent', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newVEvent)

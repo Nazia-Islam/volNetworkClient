@@ -5,10 +5,9 @@ import './Evet.css';
 
 const EventCard = () => {
     const [eventcard, setEventCard] = useState([]);
-    console.log(window.location.href);
-    //homeUrl = window.location.href + ''
+
     useEffect( () => {
-        fetch('http://localhost:4000/showAllEvents')
+        fetch('https://still-tor-92463.herokuapp.com/showAllEvents')
         .then(res => res.json())
        .then(data => setEventCard(data))
     }, [])

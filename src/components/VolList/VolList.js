@@ -6,7 +6,7 @@ const VolList = () => {
     const [volunteerList, setVolunteerList] = useState([]);
     
     useEffect(() => {
-        fetch('http://localhost:4000/showVolunteerList',)
+        fetch('https://still-tor-92463.herokuapp.com/showVolunteerList',)
         .then(res => res.json())
         .then(data => setVolunteerList(data));
     }, [])

@@ -8,7 +8,7 @@ const EventTask = () => {
     console.log(loggedInUser);
     const [task, setTask] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:4000/volunteerDetails?email='+loggedInUser.email)
+        fetch('https://still-tor-92463.herokuapp.com/volunteerDetails?email='+loggedInUser.email)
         .then(res => res.json())
         .then(data => {
             setTask(data);
