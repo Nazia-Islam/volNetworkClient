@@ -44,7 +44,7 @@ const AddEvent = () => {
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newVEvent)
         })
-        fetch('/upload', {
+        fetch('https://still-tor-92463.herokuapp.com/addVolunteerEvent/upload', {
             method: 'POST',
             body: formData
           })
