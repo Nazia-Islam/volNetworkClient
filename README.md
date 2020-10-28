@@ -3,7 +3,7 @@
 >This project is based on charity or volunteer purposed website. Anyone can register himself or herself as volunteer. Admin and user has different access panel.
 
 [Volunteer-Network website](https://volunteernetwork-73da1.web.app/ "Volunteer-Network")
-[Volunteer-Network backend github repo](https://github.com/Nazia-Islam/volNetwork/blob/master/server.js)
+[Volunteer-Network backend github repo](https://github.com/Nazia-Islam/volNetwork)
 ---
 
 ### Features:
