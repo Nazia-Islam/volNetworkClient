@@ -7,14 +7,12 @@
 ---
 
 ### Features:
-* An attractive landing page
-* Services and Feedback sections are dynamically loaded from database
-* Customer can click on any service to consume that service
-* Customer has his own panel to see all his subscribed services and also cav add any service to buy
-* Customer can give feedback
-* Admin has different panel
-* Admin can add different type of services that provides creative agency
-* All information of customer and admin are saved in database
+* Admin and user have different panel to use the website
+* Admin can add any new volunteer event which will save in database and also will shoe in landing page
+* Admin can see all volunteers list
+* Admin can delete any volunteer
+* Volunteer should register himself for any event
+* In volunteer panel list of events will appear according to the login email address
 * Firebase authentication has featured for login with google.
 
 ### Technology:
